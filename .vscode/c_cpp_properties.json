@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                //"${workspaceFolder}/**",
+                "${workspaceFolder}/components/**",
+                "${workspaceFolder}/build/include",
+                "${env:IDF_PATH}/components/**"                
+            ],
+            "defines": [
+                "__ESP_FILE__"
+            ],
+            "compilerPath": "/home/zelan/esp/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
