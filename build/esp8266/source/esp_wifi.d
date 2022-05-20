@@ -1,6 +1,6 @@
 source/esp_wifi.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/source/esp_wifi.c \
- /home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -76,7 +76,7 @@ source/esp_wifi.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_crypto_types.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_aio.h
 
-/home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h:
 

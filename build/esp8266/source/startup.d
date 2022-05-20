@@ -1,6 +1,6 @@
 source/startup.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/source/startup.c \
- /home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
@@ -86,7 +86,7 @@ source/startup.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/esp_newlib.h
 
-/home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h:
 

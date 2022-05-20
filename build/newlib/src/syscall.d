@@ -1,6 +1,6 @@
 src/syscall.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/newlib/src/syscall.c \
- /home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -42,7 +42,7 @@ src/syscall.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/termios.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/poll.h
 
-/home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 

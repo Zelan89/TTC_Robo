@@ -1,228 +1,228 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
                               (call_start_cpu)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_init)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_utility_load_partition_table)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_mmap)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_common_ota_select_valid)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_partition_table_basic_verify)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_image_load)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o) (g_rom_flashchip)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o) (spi_flash_get_id_raw)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o) (esp_log_early_timestamp)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o) (ets_vprintf)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o) (crc32_le)
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_fast_boot_get_info)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_init)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_utility_load_partition_table)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_image_load)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_partition_table_basic_verify)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_common_ota_select_valid)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (bootloader_mmap)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o) (g_rom_flashchip)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o) (spi_flash_get_id_raw)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o) (esp_log_early_timestamp)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o) (ets_vprintf)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o) (crc32_le)
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o) (esp_fast_boot_get_info)
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
-                              /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (phy_reg_default)
+                              /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o) (phy_reg_default)
 
 Allocating common symbols
 Common symbol       size              file
 
 esp_image_spi_freq_t
-                    0x4               /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                    0x4               /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.lit        0x0000000000000000       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.prop       0x0000000000000000       0xe4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- COMMON         0x0000000000000000        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .xt.lit        0x0000000000000000       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .xt.prop       0x0000000000000000      0x210 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.lit        0x0000000000000000       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.prop       0x0000000000000000       0xe4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ COMMON         0x0000000000000000        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xt.lit        0x0000000000000000       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xt.prop       0x0000000000000000      0x210 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .literal.bootloader_utility_fast_boot_image
-                0x0000000000000000        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000000000000        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .text.bootloader_utility_fast_boot_image
-                0x0000000000000000       0x27 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .xt.lit        0x0000000000000000       0x40 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .xt.prop       0x0000000000000000      0x510 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .literal.bootloader_flash_write
-                0x0000000000000000       0x28 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .literal.bootloader_flash_erase_sector
-                0x0000000000000000        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .rodata.bootloader_flash_write.str1.4
-                0x0000000000000000       0xa7 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .text.bootloader_flash_write
-                0x0000000000000000       0x9d /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .text.bootloader_flash_erase_sector
-                0x0000000000000000       0x15 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.lit        0x0000000000000000       0x30 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.prop       0x0000000000000000      0x258 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .literal.bootloader_common_check_long_hold_gpio
-                0x0000000000000000       0x58 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .text.bootloader_common_check_long_hold_gpio
-                0x0000000000000000      0x230 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .xt.lit        0x0000000000000000       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .xt.prop       0x0000000000000000      0x420 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.lit        0x0000000000000000        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.prop       0x0000000000000000       0xcc /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000000000000       0x27 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xt.lit        0x0000000000000000       0x40 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xt.prop       0x0000000000000000      0x510 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .literal.esp_image_verify_bootloader
-                0x0000000000000000        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000000        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .text.esp_image_verify_bootloader
-                0x0000000000000000       0x41 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.lit        0x0000000000000000       0x40 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.prop       0x0000000000000000      0x3e4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000000       0x41 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.lit        0x0000000000000000       0x40 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x0000000000000000      0x3e4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.lit        0x0000000000000000        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x0000000000000000       0xcc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .literal.bootloader_common_check_long_hold_gpio
+                0x0000000000000000       0x58 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .text.bootloader_common_check_long_hold_gpio
+                0x0000000000000000      0x230 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xt.lit        0x0000000000000000       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xt.prop       0x0000000000000000      0x420 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .literal.bootloader_flash_write
+                0x0000000000000000       0x28 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .literal.bootloader_flash_erase_sector
+                0x0000000000000000        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .rodata.bootloader_flash_write.str1.4
+                0x0000000000000000       0xa7 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text.bootloader_flash_write
+                0x0000000000000000       0x9d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text.bootloader_flash_erase_sector
+                0x0000000000000000       0x15 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.lit        0x0000000000000000       0x30 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.prop       0x0000000000000000      0x258 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.spi_flash_program
-                0x0000000000000000       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.__spi_flash_write
-                0x0000000000000000        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.__spi_flash_read
-                0x0000000000000000       0x10 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x10 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.spi_flash_write_status
-                0x0000000000000000        0xc /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000        0xc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.spi_flash_check_wr_protect
-                0x0000000000000000       0x4c /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x4c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.spi_flash_erase_sector
-                0x0000000000000000       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.spi_flash_read
-                0x0000000000000000       0x24 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x24 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.spi_flash_write
-                0x0000000000000000       0x3c /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x3c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.spi_flash_erase_range
-                0x0000000000000000       0x10 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x10 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.spi_flash_cache2phys
-                0x0000000000000000       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.spi_flash_get_chip_size
-                0x0000000000000000        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.spi_flash_program
-                0x0000000000000000       0xd8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0xd8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.__spi_flash_write
-                0x0000000000000000       0x23 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x23 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.__spi_flash_read
-                0x0000000000000000       0x31 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x31 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.spi_flash_write_status
-                0x0000000000000000       0x2a /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x2a /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.spi_flash_check_wr_protect
-                0x0000000000000000      0x165 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000      0x165 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.spi_flash_erase_sector
-                0x0000000000000000       0x56 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x56 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.spi_flash_read
-                0x0000000000000000      0x109 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000      0x109 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.spi_flash_write
-                0x0000000000000000      0x176 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000      0x176 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.spi_flash_erase_range
-                0x0000000000000000       0x67 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x67 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.spi_flash_cache2phys
-                0x0000000000000000       0x4e /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000       0x4e /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.spi_flash_get_chip_size
-                0x0000000000000000        0x7 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .xt.lit        0x0000000000000000       0xd0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .xt.prop       0x0000000000000000      0xb04 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000000000000        0x7 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .xt.lit        0x0000000000000000       0xd0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .xt.prop       0x0000000000000000      0xb04 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .literal.spi_flash_write_status_raw
-                0x0000000000000000       0x1c /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000000000000       0x1c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
  .literal.spi_flash_erase_sector_raw
-                0x0000000000000000       0x14 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000000000000       0x14 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
  .literal.spi_flash_write_raw
-                0x0000000000000000        0xc /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000000000000        0xc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
  .literal.spi_flash_read_raw
-                0x0000000000000000        0xc /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000000000000        0xc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
  .text.spi_flash_write_status_raw
-                0x0000000000000000       0x5c /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000000000000       0x5c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
  .text.spi_flash_erase_sector_raw
-                0x0000000000000000       0x50 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000000000000       0x50 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
  .text.spi_flash_write_raw
-                0x0000000000000000       0x43 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000000000000       0x43 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
  .text.spi_flash_read_raw
-                0x0000000000000000       0x43 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .xt.lit        0x0000000000000000       0x58 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .xt.prop       0x0000000000000000      0x348 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .xt.lit        0x0000000000000000       0x10 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .xt.prop       0x0000000000000000       0xcc /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .xt.lit        0x0000000000000000       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .xt.prop       0x0000000000000000       0xe4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x0000000000000000       0x43 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .xt.lit        0x0000000000000000       0x58 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .xt.prop       0x0000000000000000      0x348 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .xt.lit        0x0000000000000000       0x10 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .xt.prop       0x0000000000000000       0xcc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .xt.lit        0x0000000000000000       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .xt.prop       0x0000000000000000       0xe4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
  .literal.crc16_le
-                0x0000000000000000        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x0000000000000000        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
  .literal.esp_crc8
-                0x0000000000000000        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x0000000000000000        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
  .text.crc16_le
-                0x0000000000000000       0x3b /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x0000000000000000       0x3b /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
  .text.esp_crc8
-                0x0000000000000000       0x21 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x0000000000000000       0x21 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
  .rodata.crc8_le_table
-                0x0000000000000000      0x100 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x0000000000000000      0x100 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
  .rodata.crc16_le_table
-                0x0000000000000000      0x200 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
- .xt.lit        0x0000000000000000       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
- .xt.prop       0x0000000000000000       0xfc /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x0000000000000000      0x200 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .xt.lit        0x0000000000000000       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .xt.prop       0x0000000000000000       0xfc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
  .literal.esp_fast_boot_disable
-                0x0000000000000000        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                0x0000000000000000        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .literal.esp_fast_boot_get_info
-                0x0000000000000000       0x2c /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                0x0000000000000000       0x2c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .literal.esp_fast_boot_print_info
-                0x0000000000000000       0x2c /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .text          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .data          0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .bss           0x0000000000000000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                0x0000000000000000       0x2c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .text          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .data          0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .bss           0x0000000000000000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .text.esp_fast_boot_disable
-                0x0000000000000000       0x11 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                0x0000000000000000       0x11 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .rodata.esp_fast_boot_get_info.str1.4
-                0x0000000000000000       0x24 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                0x0000000000000000       0x24 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .text.esp_fast_boot_get_info
-                0x0000000000000000       0x86 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                0x0000000000000000       0x86 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .rodata.esp_fast_boot_print_info.str1.4
-                0x0000000000000000       0x59 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                0x0000000000000000       0x59 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .text.esp_fast_boot_print_info
-                0x0000000000000000       0x4d /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .debug_frame   0x0000000000000000       0x68 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .debug_info    0x0000000000000000      0xbcf /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .debug_abbrev  0x0000000000000000      0x251 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .debug_loc     0x0000000000000000       0xb0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                0x0000000000000000       0x4d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .debug_frame   0x0000000000000000       0x68 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .debug_info    0x0000000000000000      0xbcf /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .debug_abbrev  0x0000000000000000      0x251 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .debug_loc     0x0000000000000000       0xb0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .debug_aranges
-                0x0000000000000000       0x30 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .debug_ranges  0x0000000000000000       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .debug_line    0x0000000000000000      0x4ac /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .debug_str     0x0000000000000000      0x70a /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .comment       0x0000000000000000       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .xt.lit        0x0000000000000000       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
- .xt.prop       0x0000000000000000       0xc0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+                0x0000000000000000       0x30 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .debug_ranges  0x0000000000000000       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .debug_line    0x0000000000000000      0x4ac /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .debug_str     0x0000000000000000      0x706 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .comment       0x0000000000000000       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .xt.lit        0x0000000000000000       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .xt.prop       0x0000000000000000       0xc0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .literal.phy_reg_default
                 0x0000000000000000        0x0 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
  .text          0x0000000000000000        0x0 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
@@ -242,18 +242,18 @@ iram_seg         0x0000000040100000 0x0000000000008000
 Linker script and memory map
 
 START GROUP
-LOAD /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a
+LOAD /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a
 LOAD /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a
-LOAD /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a
-LOAD /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a
-LOAD /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a
-LOAD /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a
+LOAD /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a
+LOAD /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a
+LOAD /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a
+LOAD /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a
 LOAD /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a
 LOAD /home/zelan/esp/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a
 LOAD /home/zelan/esp/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/libgcov.a
 END GROUP
 
-.text           0x0000000040100000     0x1b75
+.text           0x0000000040100000     0x1b79
                 0x0000000040100000                _stext = .
                 0x0000000040100000                _text_start = ABSOLUTE (.)
                 0x0000000040100000                . = ALIGN (0x10)
@@ -262,452 +262,452 @@ END GROUP
  *(.init)
  *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
  .literal.selected_boot_partition
-                0x0000000040100000        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040100000        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
                                           0x4 (size before relaxing)
  .literal.select_image
-                0x0000000040100000        0xc /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040100000        0xc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x1c (size before relaxing)
  .literal.call_start_cpu
-                0x000000004010000c        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004010000c        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
                                           0xc (size before relaxing)
  .literal.print_flash_info
-                0x000000004010000c       0x48 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000004010000c       0x48 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x54 (size before relaxing)
  .literal.update_flash_config
-                0x0000000040100054        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040100054        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                           0x8 (size before relaxing)
  .literal.bootloader_main
-                0x0000000040100058       0x10 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040100058       0x10 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_init
-                0x0000000040100068        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040100068        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x10 (size before relaxing)
  .literal.bootloader_utility_start_image
-                0x0000000040100070        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040100070        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                           0x4 (size before relaxing)
  .literal.log_invalid_app_partition
-                0x0000000040100070       0x14 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040100070       0x14 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x20 (size before relaxing)
  .literal.try_load_partition
-                0x0000000040100084        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040100084        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x10 (size before relaxing)
  .literal.bootloader_utility_load_partition_table
-                0x0000000040100088       0x4c /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040100088       0x4c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x74 (size before relaxing)
  .literal.bootloader_utility_get_selected_boot_partition
-                0x00000000401000d4       0x1c /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000401000d4       0x1c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x5c (size before relaxing)
  .literal.bootloader_utility_load_boot_image
-                0x00000000401000f0        0xc /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000401000f0        0xc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x40 (size before relaxing)
  .literal.bootloader_utility_load_image
-                0x00000000401000fc        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000401000fc        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                           0x4 (size before relaxing)
- .literal.bootloader_flash_read_no_decrypt
-                0x00000000401000fc        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .literal.bootloader_mmap
-                0x0000000040100100       0x30 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                         0x3c (size before relaxing)
- .literal.bootloader_munmap
-                0x0000000040100130        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                          0x8 (size before relaxing)
- .literal.bootloader_flash_read
-                0x0000000040100130        0xc /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                         0x20 (size before relaxing)
- .literal.bootloader_common_ota_select_crc
-                0x000000004010013c        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                                          0x4 (size before relaxing)
- .literal.bootloader_common_ota_select_valid
-                0x000000004010013c        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                                          0x4 (size before relaxing)
- .literal.esp_partition_table_basic_verify
-                0x000000004010013c       0x1c /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                         0x2c (size before relaxing)
  .literal.should_map
-                0x0000000040100158        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000401000fc        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .literal.should_load
-                0x0000000040100160        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100104        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                           0x4 (size before relaxing)
  .literal.verify_image_header
-                0x0000000040100160       0x14 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100104       0x14 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x20 (size before relaxing)
  .literal.process_segment_data
-                0x0000000040100174        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100118        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x14 (size before relaxing)
  .literal.verify_checksum
-                0x000000004010017c        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100120        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x1c (size before relaxing)
  .literal.process_segment
-                0x0000000040100184       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100128       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x40 (size before relaxing)
  .literal.esp_image_load
-                0x000000004010019c       0x14 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100140       0x14 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x44 (size before relaxing)
+ .literal.esp_partition_table_basic_verify
+                0x0000000040100154       0x1c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                         0x2c (size before relaxing)
+ .literal.bootloader_common_ota_select_crc
+                0x0000000040100170        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                          0x4 (size before relaxing)
+ .literal.bootloader_common_ota_select_valid
+                0x0000000040100170        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                          0x4 (size before relaxing)
+ .literal.bootloader_flash_read_no_decrypt
+                0x0000000040100170        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .literal.bootloader_mmap
+                0x0000000040100174       0x30 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                         0x3c (size before relaxing)
+ .literal.bootloader_munmap
+                0x00000000401001a4        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                          0x8 (size before relaxing)
+ .literal.bootloader_flash_read
+                0x00000000401001a4        0xc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                         0x20 (size before relaxing)
  .literal.spi_user_cmd
-                0x00000000401001b0        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b0        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0xc (size before relaxing)
  .literal.special_flash_read_status
-                0x00000000401001b4        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b4        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0x4 (size before relaxing)
  .literal.flash_gd25q32c_read_status
-                0x00000000401001b4        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b4        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0x4 (size before relaxing)
  .literal.special_flash_write_status
-                0x00000000401001b4        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b4        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0x8 (size before relaxing)
  .literal.spi_flash_enable_qio_bit6
-                0x00000000401001b4        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b4        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0x4 (size before relaxing)
  .literal.flash_gd25q32c_write_status
-                0x00000000401001b4        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b4        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0x4 (size before relaxing)
  .literal.flash_gd25q32c_enable_QIO_mode
-                0x00000000401001b4        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b4        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0xc (size before relaxing)
  .literal.en25q16x_read_sfdp
-                0x00000000401001b4        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b4        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0x8 (size before relaxing)
  .literal.spi_flash_get_id
-                0x00000000401001b8        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b8        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0xc (size before relaxing)
  .literal.spi_flash_read_status
-                0x00000000401001b8        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b8        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0xc (size before relaxing)
  .literal.spi_flash_issi_enable_QIO_mode
-                0x00000000401001b8        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b8        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0xc (size before relaxing)
  .literal.special_flash_set_mode
-                0x00000000401001b8        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b8        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                           0x8 (size before relaxing)
  .literal.en25q16x_write_volatile_status
-                0x00000000401001b8        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b8        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x14 (size before relaxing)
  .literal.user_spi_flash_dio_to_qio_pre_init
-                0x00000000401001b8        0xc /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001b8        0xc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x30 (size before relaxing)
  .literal.esp_spi_flash_init
-                0x00000000401001c4       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401001c4       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x28 (size before relaxing)
  .literal.Cache_Read_Disable_2
-                0x00000000401001e4        0xc /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x00000000401001e4        0xc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
                                          0x10 (size before relaxing)
  .literal.Cache_Read_Enable_2
-                0x00000000401001f0        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x00000000401001f0        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
                                           0xc (size before relaxing)
  .literal.spi_flash_get_id_raw
-                0x00000000401001f4       0x10 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x00000000401001f4       0x10 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
                                          0x1c (size before relaxing)
  .literal.spi_flash_read_status_raw
-                0x0000000040100204        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000040100204        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
                                           0xc (size before relaxing)
  .literal.spi_flash_enable_qmode_raw
-                0x0000000040100208        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000040100208        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
                                          0x10 (size before relaxing)
  .literal.spi_user_cmd_raw
-                0x000000004010020c       0x64 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x000000004010020c       0x64 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
                                          0x8c (size before relaxing)
  .literal.spi_flash_switch_to_qio_raw
-                0x0000000040100270        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000040100270        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
                                           0xc (size before relaxing)
  .literal.uart_putc
-                0x0000000040100278        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x0000000040100278        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
  .literal.ets_putc
-                0x0000000040100280        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x0000000040100280        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
                                           0x8 (size before relaxing)
  .literal.ets_vprintf
-                0x0000000040100280        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x0000000040100280        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
  .literal.crc32_le
-                0x0000000040100288        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x0000000040100288        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
  .iram1.0.literal
-                0x000000004010028c        0x8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+                0x000000004010028c        0x8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
  .iram1.1.literal
-                0x0000000040100294       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+                0x0000000040100294       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
                                          0x30 (size before relaxing)
  .iram1.0.literal
-                0x00000000401002ac        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x00000000401002ac        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
                                           0x8 (size before relaxing)
  .text.selected_boot_partition
-                0x00000000401002ac        0xf /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000401002ac        0xf /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x13 (size before relaxing)
  *fill*         0x00000000401002bb        0x1 
  .text.select_image
-                0x00000000401002bc       0x68 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000401002bc       0x68 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x70 (size before relaxing)
  .text.call_start_cpu
-                0x0000000040100324       0x26 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0x2e (size before relaxing)
+                0x0000000040100324       0x2a /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x32 (size before relaxing)
                 0x0000000040100324                call_start_cpu
- *fill*         0x000000004010034a        0x2 
+ *fill*         0x000000004010034e        0x2 
  .text.print_flash_info
-                0x000000004010034c       0xc7 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040100350       0xc7 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0xcb (size before relaxing)
- *fill*         0x0000000040100413        0x1 
+ *fill*         0x0000000040100417        0x1 
  .text.update_flash_config
-                0x0000000040100414       0x21 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- *fill*         0x0000000040100435        0x3 
+                0x0000000040100418       0x21 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ *fill*         0x0000000040100439        0x3 
  .text.bootloader_main
-                0x0000000040100438       0x61 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000004010043c       0x61 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x75 (size before relaxing)
- *fill*         0x0000000040100499        0x3 
+ *fill*         0x000000004010049d        0x3 
  .text.bootloader_init
-                0x000000004010049c       0x25 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x00000000401004a0       0x25 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x29 (size before relaxing)
-                0x000000004010049c                bootloader_init
- *fill*         0x00000000401004c1        0x3 
+                0x00000000401004a0                bootloader_init
+ *fill*         0x00000000401004c5        0x3 
  .text.bootloader_utility_start_image
-                0x00000000401004c4       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000401004c8       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x24 (size before relaxing)
  .text.log_invalid_app_partition
-                0x00000000401004e4       0x4b /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000401004e8       0x4b /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x53 (size before relaxing)
- *fill*         0x000000004010052f        0x1 
+ *fill*         0x0000000040100533        0x1 
  .text.try_load_partition
-                0x0000000040100530       0x3d /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040100534       0x3d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x41 (size before relaxing)
- *fill*         0x000000004010056d        0x3 
+ *fill*         0x0000000040100571        0x3 
  .text.bootloader_utility_load_partition_table
-                0x0000000040100570      0x170 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040100574      0x170 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                         0x184 (size before relaxing)
-                0x0000000040100570                bootloader_utility_load_partition_table
+                0x0000000040100574                bootloader_utility_load_partition_table
  .text.bootloader_utility_get_selected_boot_partition
-                0x00000000401006e0      0x13c /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000401006e4      0x13c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                         0x14c (size before relaxing)
-                0x00000000401006e0                bootloader_utility_get_selected_boot_partition
+                0x00000000401006e4                bootloader_utility_get_selected_boot_partition
  .text.bootloader_utility_load_boot_image
-                0x000000004010081c       0xd6 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000040100820       0xd6 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0xfa (size before relaxing)
-                0x000000004010081c                bootloader_utility_load_boot_image
- *fill*         0x00000000401008f2        0x2 
+                0x0000000040100820                bootloader_utility_load_boot_image
+ *fill*         0x00000000401008f6        0x2 
  .text.bootloader_utility_load_image
-                0x00000000401008f4       0x19 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                0x00000000401008f4                bootloader_utility_load_image
- *fill*         0x000000004010090d        0x3 
- .text.bootloader_flash_read_no_decrypt
-                0x0000000040100910       0x15 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x0000000040100925        0x3 
- .text.bootloader_mmap
-                0x0000000040100928       0xa6 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                         0xaa (size before relaxing)
-                0x0000000040100928                bootloader_mmap
- *fill*         0x00000000401009ce        0x2 
- .text.bootloader_munmap
-                0x00000000401009d0       0x23 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x00000000401009d0                bootloader_munmap
- *fill*         0x00000000401009f3        0x1 
- .text.bootloader_flash_read
-                0x00000000401009f4       0x60 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                         0x63 (size before relaxing)
-                0x00000000401009f4                bootloader_flash_read
- *fill*         0x0000000040100a54        0x0 
- .text.bootloader_common_ota_select_crc
-                0x0000000040100a54       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                0x0000000040100a54                bootloader_common_ota_select_crc
- .text.bootloader_common_ota_select_valid
-                0x0000000040100a6c       0x2c /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                0x0000000040100a6c                bootloader_common_ota_select_valid
- .text.esp_partition_table_basic_verify
-                0x0000000040100a98       0xd7 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                0x0000000040100a98                esp_partition_table_basic_verify
- *fill*         0x0000000040100b6f        0x1 
+                0x00000000401008f8       0x19 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x00000000401008f8                bootloader_utility_load_image
+ *fill*         0x0000000040100911        0x3 
  .text.should_map
-                0x0000000040100b70       0x15 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x0000000040100b85        0x3 
+                0x0000000040100914       0x15 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x0000000040100929        0x3 
  .text.should_load
-                0x0000000040100b88       0x19 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004010092c       0x19 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x1d (size before relaxing)
- *fill*         0x0000000040100ba1        0x3 
+ *fill*         0x0000000040100945        0x3 
  .text.verify_image_header
-                0x0000000040100ba4       0x7d /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100948       0x7d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x85 (size before relaxing)
- *fill*         0x0000000040100c21        0x3 
+ *fill*         0x00000000401009c5        0x3 
  .text.process_segment_data
-                0x0000000040100c24       0x89 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000401009c8       0x89 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x91 (size before relaxing)
- *fill*         0x0000000040100cad        0x3 
+ *fill*         0x0000000040100a51        0x3 
  .text.verify_checksum
-                0x0000000040100cb0       0x9c /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100a54       0x9c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0xa0 (size before relaxing)
  .text.process_segment
-                0x0000000040100d4c      0x10b /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100af0      0x10b /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x117 (size before relaxing)
- *fill*         0x0000000040100e57        0x1 
+ *fill*         0x0000000040100bfb        0x1 
  .text.esp_image_load
-                0x0000000040100e58      0x18d /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040100bfc      0x18d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x1a5 (size before relaxing)
-                0x0000000040100e58                esp_image_load
- *fill*         0x0000000040100fe5        0x3 
+                0x0000000040100bfc                esp_image_load
+ *fill*         0x0000000040100d89        0x3 
+ .text.esp_partition_table_basic_verify
+                0x0000000040100d8c       0xd7 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000040100d8c                esp_partition_table_basic_verify
+ *fill*         0x0000000040100e63        0x1 
+ .text.bootloader_common_ota_select_crc
+                0x0000000040100e64       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000040100e64                bootloader_common_ota_select_crc
+ .text.bootloader_common_ota_select_valid
+                0x0000000040100e7c       0x2c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000040100e7c                bootloader_common_ota_select_valid
+ .text.bootloader_flash_read_no_decrypt
+                0x0000000040100ea8       0x15 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x0000000040100ebd        0x3 
+ .text.bootloader_mmap
+                0x0000000040100ec0       0xa6 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                         0xaa (size before relaxing)
+                0x0000000040100ec0                bootloader_mmap
+ *fill*         0x0000000040100f66        0x2 
+ .text.bootloader_munmap
+                0x0000000040100f68       0x23 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040100f68                bootloader_munmap
+ *fill*         0x0000000040100f8b        0x1 
+ .text.bootloader_flash_read
+                0x0000000040100f8c       0x60 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                         0x63 (size before relaxing)
+                0x0000000040100f8c                bootloader_flash_read
+ *fill*         0x0000000040100fec        0x0 
  .text.spi_user_cmd
-                0x0000000040100fe8       0x4d /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
-                0x0000000040100fe8                spi_user_cmd
- *fill*         0x0000000040101035        0x3 
+                0x0000000040100fec       0x4d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000040100fec                spi_user_cmd
+ *fill*         0x0000000040101039        0x3 
  .text.special_flash_read_status
-                0x0000000040101038       0x39 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x000000004010103c       0x39 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x3d (size before relaxing)
-                0x0000000040101038                special_flash_read_status
- *fill*         0x0000000040101071        0x3 
+                0x000000004010103c                special_flash_read_status
+ *fill*         0x0000000040101075        0x3 
  .text.flash_gd25q32c_read_status
-                0x0000000040101074       0x33 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- *fill*         0x00000000401010a7        0x1 
+                0x0000000040101078       0x33 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ *fill*         0x00000000401010ab        0x1 
  .text.special_flash_write_status
-                0x00000000401010a8       0x5c /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401010ac       0x5c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x60 (size before relaxing)
-                0x00000000401010a8                special_flash_write_status
+                0x00000000401010ac                special_flash_write_status
  .text.spi_flash_enable_qio_bit6
-                0x0000000040101104       0x17 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000040101108       0x17 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x1b (size before relaxing)
- *fill*         0x000000004010111b        0x1 
+ *fill*         0x000000004010111f        0x1 
  .text.flash_gd25q32c_write_status
-                0x000000004010111c       0x30 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000040101120       0x30 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .text.flash_gd25q32c_enable_QIO_mode
-                0x000000004010114c       0x3e /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000040101150       0x3e /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x46 (size before relaxing)
- *fill*         0x000000004010118a        0x2 
+ *fill*         0x000000004010118e        0x2 
  .text.en25q16x_read_sfdp
-                0x000000004010118c       0x43 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
-                0x000000004010118c                en25q16x_read_sfdp
- *fill*         0x00000000401011cf        0x1 
+                0x0000000040101190       0x43 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000040101190                en25q16x_read_sfdp
+ *fill*         0x00000000401011d3        0x1 
  .text.spi_flash_get_id
-                0x00000000401011d0       0x26 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
-                0x00000000401011d0                spi_flash_get_id
- *fill*         0x00000000401011f6        0x2 
+                0x00000000401011d4       0x26 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401011d4                spi_flash_get_id
+ *fill*         0x00000000401011fa        0x2 
  .text.spi_flash_read_status
-                0x00000000401011f8       0x28 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
-                0x00000000401011f8                spi_flash_read_status
+                0x00000000401011fc       0x28 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401011fc                spi_flash_read_status
  .text.spi_flash_issi_enable_QIO_mode
-                0x0000000040101220       0x43 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000040101224       0x43 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x4b (size before relaxing)
- *fill*         0x0000000040101263        0x1 
+ *fill*         0x0000000040101267        0x1 
  .text.special_flash_set_mode
-                0x0000000040101264       0x41 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000040101268       0x41 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x45 (size before relaxing)
-                0x0000000040101264                special_flash_set_mode
- *fill*         0x00000000401012a5        0x3 
+                0x0000000040101268                special_flash_set_mode
+ *fill*         0x00000000401012a9        0x3 
  .text.en25q16x_write_volatile_status
-                0x00000000401012a8       0x4f /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401012ac       0x4f /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0x5b (size before relaxing)
-                0x00000000401012a8                en25q16x_write_volatile_status
- *fill*         0x00000000401012f7        0x1 
+                0x00000000401012ac                en25q16x_write_volatile_status
+ *fill*         0x00000000401012fb        0x1 
  .text.user_spi_flash_dio_to_qio_pre_init
-                0x00000000401012f8       0x95 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000401012fc       0x95 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0xa1 (size before relaxing)
-                0x00000000401012f8                user_spi_flash_dio_to_qio_pre_init
- *fill*         0x000000004010138d        0x3 
+                0x00000000401012fc                user_spi_flash_dio_to_qio_pre_init
+ *fill*         0x0000000040101391        0x3 
  .text.esp_spi_flash_init
-                0x0000000040101390       0xb9 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x0000000040101394       0xb9 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                                          0xc1 (size before relaxing)
-                0x0000000040101390                esp_spi_flash_init
- *fill*         0x0000000040101449        0x3 
+                0x0000000040101394                esp_spi_flash_init
+ *fill*         0x000000004010144d        0x3 
  .text.Cache_Read_Disable_2
-                0x000000004010144c       0x34 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
-                0x000000004010144c                Cache_Read_Disable_2
+                0x0000000040101450       0x34 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000040101450                Cache_Read_Disable_2
  .text.Cache_Read_Enable_2
-                0x0000000040101480       0x28 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
-                0x0000000040101480                Cache_Read_Enable_New
-                0x0000000040101480                Cache_Read_Enable_2
+                0x0000000040101484       0x28 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000040101484                Cache_Read_Enable_New
+                0x0000000040101484                Cache_Read_Enable_2
  .text.spi_flash_get_id_raw
-                0x00000000401014a8       0x57 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
-                0x00000000401014a8                spi_flash_get_id_raw
- *fill*         0x00000000401014ff        0x1 
+                0x00000000401014ac       0x57 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x00000000401014ac                spi_flash_get_id_raw
+ *fill*         0x0000000040101503        0x1 
  .text.spi_flash_read_status_raw
-                0x0000000040101500       0x2f /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000040101504       0x2f /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
                                          0x33 (size before relaxing)
-                0x0000000040101500                spi_flash_read_status_raw
- *fill*         0x000000004010152f        0x1 
+                0x0000000040101504                spi_flash_read_status_raw
+ *fill*         0x0000000040101533        0x1 
  .text.spi_flash_enable_qmode_raw
-                0x0000000040101530       0x33 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000040101534       0x33 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
                                          0x37 (size before relaxing)
-                0x0000000040101530                spi_flash_enable_qmode_raw
- *fill*         0x0000000040101563        0x1 
+                0x0000000040101534                spi_flash_enable_qmode_raw
+ *fill*         0x0000000040101567        0x1 
  .text.spi_user_cmd_raw
-                0x0000000040101564      0x3df /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
-                0x0000000040101564                spi_user_cmd_raw
- *fill*         0x0000000040101943        0x1 
+                0x0000000040101568      0x3df /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000040101568                spi_user_cmd_raw
+ *fill*         0x0000000040101947        0x1 
  .text.spi_flash_switch_to_qio_raw
-                0x0000000040101944       0x25 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
-                0x0000000040101944                spi_flash_switch_to_qio_raw
- *fill*         0x0000000040101969        0x3 
+                0x0000000040101948       0x25 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x0000000040101948                spi_flash_switch_to_qio_raw
+ *fill*         0x000000004010196d        0x3 
  .text.uart_putc
-                0x000000004010196c       0x1b /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- *fill*         0x0000000040101987        0x1 
+                0x0000000040101970       0x1b /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ *fill*         0x000000004010198b        0x1 
  .text.ets_putc
-                0x0000000040101988       0x27 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
-                0x0000000040101988                ets_putc
- *fill*         0x00000000401019af        0x1 
+                0x000000004010198c       0x27 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x000000004010198c                ets_putc
+ *fill*         0x00000000401019b3        0x1 
  .text.ets_vprintf
-                0x00000000401019b0       0x1f /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
-                0x00000000401019b0                ets_vprintf
- *fill*         0x00000000401019cf        0x1 
+                0x00000000401019b4       0x1f /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x00000000401019b4                ets_vprintf
+ *fill*         0x00000000401019d3        0x1 
  .text.crc32_le
-                0x00000000401019d0       0x31 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
-                0x00000000401019d0                crc32_le
- *fill*         0x0000000040101a01        0x3 
+                0x00000000401019d4       0x31 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x00000000401019d4                crc32_le
+ *fill*         0x0000000040101a05        0x3 
  .text.phy_reg_default
-                0x0000000040101a04       0x36 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
-                0x0000000040101a14                phy_reg_default
- *fill*         0x0000000040101a3a        0x0 
- *fill*         0x0000000040101a3a        0x0 
- *fill*         0x0000000040101a3a        0x0 
- *fill*         0x0000000040101a3a        0x0 
- *fill*         0x0000000040101a3a        0x0 
- *fill*         0x0000000040101a3a        0x2 
+                0x0000000040101a08       0x36 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
+                0x0000000040101a18                phy_reg_default
+ *fill*         0x0000000040101a3e        0x0 
+ *fill*         0x0000000040101a3e        0x0 
+ *fill*         0x0000000040101a3e        0x0 
+ *fill*         0x0000000040101a3e        0x0 
+ *fill*         0x0000000040101a3e        0x0 
+ *fill*         0x0000000040101a3e        0x2 
  .text.index_to_partition
-                0x0000000040101a3c       0x4d /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- *fill*         0x0000000040101a89        0x0 
- *fill*         0x0000000040101a89        0x0 
- *fill*         0x0000000040101a89        0x0 
- *fill*         0x0000000040101a89        0x0 
- *fill*         0x0000000040101a89        0x0 
- *fill*         0x0000000040101a89        0x0 
- *fill*         0x0000000040101a89        0x0 
- *fill*         0x0000000040101a89        0x0 
- *fill*         0x0000000040101a89        0x0 
- *fill*         0x0000000040101a89        0x3 
+                0x0000000040101a40       0x4d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x0000000040101a8d        0x0 
+ *fill*         0x0000000040101a8d        0x0 
+ *fill*         0x0000000040101a8d        0x0 
+ *fill*         0x0000000040101a8d        0x0 
+ *fill*         0x0000000040101a8d        0x3 
  .text.verify_segment_header
-                0x0000000040101a8c        0x4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
- *fill*         0x0000000040101a90        0x0 
+                0x0000000040101a90        0x4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
+ *fill*         0x0000000040101a94        0x0 
  *(.iram1 .iram1.*)
- .iram1.0       0x0000000040101a90       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
-                0x0000000040101a90                esp_log_early_timestamp
- .iram1.1       0x0000000040101aa8       0x96 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .iram1.0       0x0000000040101a94       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+                0x0000000040101a94                esp_log_early_timestamp
+ .iram1.1       0x0000000040101aac       0x96 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
                                          0xa1 (size before relaxing)
-                0x0000000040101aa8                esp_early_log_write
- *fill*         0x0000000040101b3e        0x2 
- .iram1.0       0x0000000040101b40       0x35 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x0000000040101aac                esp_early_log_write
+ *fill*         0x0000000040101b42        0x2 
+ .iram1.0       0x0000000040101b44       0x35 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
                                          0x39 (size before relaxing)
-                0x0000000040101b40                ets_printf
- *fill*         0x0000000040101b75        0x0 
- *fill*         0x0000000040101b75        0x0 
+                0x0000000040101b44                ets_printf
+ *fill*         0x0000000040101b79        0x0 
+ *fill*         0x0000000040101b79        0x0 
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x0000000040101b75                _text_end = ABSOLUTE (.)
-                0x0000000040101b75                _etext = .
+                0x0000000040101b79                _text_end = ABSOLUTE (.)
+                0x0000000040101b79                _etext = .
 
 .bss            0x000000003ffe8000      0x408
                 0x000000003ffe8000                . = ALIGN (0x8)
@@ -723,17 +723,16 @@ END GROUP
  *(.dynbss)
  *(.bss)
  *(.bss.*)
- .bss.mapped    0x000000003ffe8000        0x1 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x000000003ffe8001        0x3 
  .bss.pbuf$3623
-                0x000000003ffe8004      0x400 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003ffe8000      0x400 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .bss.mapped    0x000000003ffe8400        0x1 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .bss.FlashIsOnGoing
-                0x000000003ffe8404        0x1 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
-                0x000000003ffe8404                FlashIsOnGoing
+                0x000000003ffe8401        0x1 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x000000003ffe8401                FlashIsOnGoing
  *(.gnu.linkonce.b.*)
  *(COMMON)
                 0x000000003ffe8408                . = ALIGN (0x8)
- *fill*         0x000000003ffe8405        0x3 
+ *fill*         0x000000003ffe8402        0x6 
                 0x000000003ffe8408                _bss_end = ABSOLUTE (.)
 
 .data           0x000000003ffe8408       0x18
@@ -741,7 +740,7 @@ END GROUP
  *(.data)
  *(.data.*)
  .data.g_rom_flashchip
-                0x000000003ffe8408       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x000000003ffe8408       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
                 0x000000003ffe8408                g_rom_flashchip
  *(.gnu.linkonce.d.*)
  *(.data1)
@@ -759,68 +758,68 @@ END GROUP
  *(.rodata)
  *(.rodata.*)
  .rodata.select_image.str1.4
-                0x000000003ffe8420       0x21 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000003ffe8420       0x21 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
  *fill*         0x000000003ffe8441        0x3 
  .rodata.print_flash_info.str1.4
-                0x000000003ffe8444       0x88 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000003ffe8444       0x88 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x94 (size before relaxing)
  .rodata.print_flash_info
-                0x000000003ffe84cc       0x28 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000003ffe84cc       0x28 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .rodata.bootloader_main.str1.4
-                0x000000003ffe84f4       0x6e /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000003ffe84f4       0x6e /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  *fill*         0x000000003ffe8562        0x2 
  .rodata.log_invalid_app_partition.str1.4
-                0x000000003ffe8564       0x68 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000003ffe8564       0x68 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                          0x70 (size before relaxing)
  .rodata.try_load_partition.str1.4
-                0x000000003ffe85cc       0x29 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000003ffe85cc       0x29 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  *fill*         0x000000003ffe85f5        0x3 
  .rodata.bootloader_utility_load_partition_table.str1.4
-                0x000000003ffe85f8      0x137 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000003ffe85f8      0x137 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  *fill*         0x000000003ffe872f        0x1 
  .rodata.bootloader_utility_get_selected_boot_partition.str1.4
-                0x000000003ffe8730       0xef /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000003ffe8730       0xef /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  *fill*         0x000000003ffe881f        0x1 
  .rodata.bootloader_utility_load_boot_image.str1.4
-                0x000000003ffe8820       0x9a /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000003ffe8820       0x9a /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  *fill*         0x000000003ffe88ba        0x2 
- .rodata.bootloader_mmap.str1.4
-                0x000000003ffe88bc       0x57 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x000000003ffe8913        0x1 
- .rodata.bootloader_flash_read.str1.4
-                0x000000003ffe8914       0x9f /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x000000003ffe89b3        0x1 
- .rodata.esp_partition_table_basic_verify.str1.4
-                0x000000003ffe89b4       0xb4 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .rodata.verify_image_header.str1.4
-                0x000000003ffe8a68       0x82 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x000000003ffe8aea        0x2 
+                0x000000003ffe88bc       0x82 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x000000003ffe893e        0x2 
  .rodata.process_segment_data.str1.4
-                0x000000003ffe8aec       0x27 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x000000003ffe8b13        0x1 
+                0x000000003ffe8940       0x27 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x000000003ffe8967        0x1 
  .rodata.verify_checksum.str1.4
-                0x000000003ffe8b14       0x57 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x000000003ffe8b6b        0x1 
+                0x000000003ffe8968       0x57 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x000000003ffe89bf        0x1 
  .rodata.process_segment.str1.4
-                0x000000003ffe8b6c       0x8f /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003ffe89c0       0x8f /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x93 (size before relaxing)
- *fill*         0x000000003ffe8bfb        0x1 
+ *fill*         0x000000003ffe8a4f        0x1 
  .rodata.esp_image_load.str1.4
-                0x000000003ffe8bfc       0xaf /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003ffe8a50       0xaf /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x000000003ffe8aff        0x1 
+ .rodata.esp_partition_table_basic_verify.str1.4
+                0x000000003ffe8b00       0xb4 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .rodata.bootloader_mmap.str1.4
+                0x000000003ffe8bb4       0x57 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x000000003ffe8c0b        0x1 
+ .rodata.bootloader_flash_read.str1.4
+                0x000000003ffe8c0c       0x9f /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *fill*         0x000000003ffe8cab        0x1 
  .rodata.esp_spi_flash_init.str1.4
-                0x000000003ffe8cac       0x29 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x000000003ffe8cac       0x29 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  *fill*         0x000000003ffe8cd5        0x3 
  .rodata.str1.4
-                0x000000003ffe8cd8       0x24 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+                0x000000003ffe8cd8       0x24 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
                                          0x22 (size before relaxing)
  .rodata.s_log_prefix
-                0x000000003ffe8cfc        0x6 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+                0x000000003ffe8cfc        0x6 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
  *fill*         0x000000003ffe8d02        0x2 
  .rodata.s_log_color
-                0x000000003ffe8d04       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+                0x000000003ffe8d04       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
  .rodata.crc32_le_table
-                0x000000003ffe8d1c      0x400 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x000000003ffe8d1c      0x400 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
                 0x000000003ffe911c                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
@@ -923,173 +922,173 @@ END GROUP
                 [!provide]                        PROVIDE (xthal_get_ccount = 0x4000dd38)
                 [!provide]                        PROVIDE (uart_div_modify = 0x400039d8)
                 [!provide]                        PROVIDE (ets_io_vprintf = 0x40001f00)
-OUTPUT(/home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader.elf elf32-xtensa-le)
+OUTPUT(/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader.elf elf32-xtensa-le)
 
 .debug_frame    0x0000000000000000      0xae0
- .debug_frame   0x0000000000000000       0x74 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_frame   0x0000000000000074       0x94 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_frame   0x0000000000000108      0x140 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_frame   0x0000000000000248       0xdc /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_frame   0x0000000000000324       0x74 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_frame   0x0000000000000398       0x38 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_frame   0x00000000000003d0      0x13c /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_frame   0x000000000000050c      0x350 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .debug_frame   0x000000000000085c      0x16c /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .debug_frame   0x00000000000009c8       0x58 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .debug_frame   0x0000000000000a20       0x80 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .debug_frame   0x0000000000000aa0       0x40 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_frame   0x0000000000000000       0x74 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_frame   0x0000000000000074       0x94 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_frame   0x0000000000000108      0x140 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_frame   0x0000000000000248      0x13c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x0000000000000384       0x38 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x00000000000003bc       0x74 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_frame   0x0000000000000430       0xdc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x000000000000050c      0x350 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_frame   0x000000000000085c      0x16c /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_frame   0x00000000000009c8       0x58 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .debug_frame   0x0000000000000a20       0x80 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_frame   0x0000000000000aa0       0x40 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
 
-.debug_info     0x0000000000000000     0xc69a
- .debug_info    0x0000000000000000      0xd7f /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_info    0x0000000000000d7f      0xe02 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_info    0x0000000000001b81     0x178d /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_info    0x000000000000330e      0xe3a /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x0000000000004148     0x12b3 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_info    0x00000000000053fb      0xca5 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_info    0x00000000000060a0     0x16ca /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_info    0x000000000000776a     0x1e00 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .debug_info    0x000000000000956a     0x10c9 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .debug_info    0x000000000000a633     0x12ba /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .debug_info    0x000000000000b8ed      0xb66 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .debug_info    0x000000000000c453      0x247 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+.debug_info     0x0000000000000000     0xc6f9
+ .debug_info    0x0000000000000000      0xdde /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_info    0x0000000000000dde      0xe02 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_info    0x0000000000001be0     0x178d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_info    0x000000000000336d     0x16ca /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x0000000000004a37      0xca5 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x00000000000056dc     0x12b3 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_info    0x000000000000698f      0xe3a /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x00000000000077c9     0x1e00 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_info    0x00000000000095c9     0x10c9 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_info    0x000000000000a692     0x12ba /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x000000000000b94c      0xb66 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_info    0x000000000000c4b2      0x247 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
 
-.debug_abbrev   0x0000000000000000     0x216f
- .debug_abbrev  0x0000000000000000      0x2a2 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_abbrev  0x00000000000002a2      0x2f2 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_abbrev  0x0000000000000594      0x355 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_abbrev  0x00000000000008e9      0x2aa /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_abbrev  0x0000000000000b93      0x2c7 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_abbrev  0x0000000000000e5a      0x271 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_abbrev  0x00000000000010cb      0x316 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_abbrev  0x00000000000013e1      0x45b /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .debug_abbrev  0x000000000000183c      0x29d /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .debug_abbrev  0x0000000000001ad9      0x315 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .debug_abbrev  0x0000000000001dee      0x2a2 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .debug_abbrev  0x0000000000002090       0xdf /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+.debug_abbrev   0x0000000000000000     0x21bb
+ .debug_abbrev  0x0000000000000000      0x2ee /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_abbrev  0x00000000000002ee      0x2f2 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_abbrev  0x00000000000005e0      0x355 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_abbrev  0x0000000000000935      0x316 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x0000000000000c4b      0x271 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x0000000000000ebc      0x2c7 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_abbrev  0x0000000000001183      0x2aa /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x000000000000142d      0x45b /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_abbrev  0x0000000000001888      0x29d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_abbrev  0x0000000000001b25      0x315 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .debug_abbrev  0x0000000000001e3a      0x2a2 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_abbrev  0x00000000000020dc       0xdf /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
 
 .debug_loc      0x0000000000000000     0x368e
- .debug_loc     0x0000000000000000       0x9b /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_loc     0x000000000000009b       0xbc /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_loc     0x0000000000000157      0x717 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_loc     0x000000000000086e      0x427 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x0000000000000c95      0x18f /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_loc     0x0000000000000e24      0x11a /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x0000000000000f3e      0xb53 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x0000000000001a91     0x11dd /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .debug_loc     0x0000000000002c6e      0x668 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .debug_loc     0x00000000000032d6      0x119 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .debug_loc     0x00000000000033ef       0xe9 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .debug_loc     0x00000000000034d8      0x1b6 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_loc     0x0000000000000000       0x9b /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_loc     0x000000000000009b       0xbc /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_loc     0x0000000000000157      0x717 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_loc     0x000000000000086e      0xb53 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x00000000000013c1      0x11a /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x00000000000014db      0x18f /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_loc     0x000000000000166a      0x427 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x0000000000001a91     0x11dd /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_loc     0x0000000000002c6e      0x668 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_loc     0x00000000000032d6      0x119 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x00000000000033ef       0xe9 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_loc     0x00000000000034d8      0x1b6 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
 
 .debug_aranges  0x0000000000000000      0x3a8
  .debug_aranges
-                0x0000000000000000       0x30 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000000000000       0x30 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_aranges
-                0x0000000000000030       0x38 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000000000030       0x38 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .debug_aranges
-                0x0000000000000068       0x60 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x0000000000000068       0x60 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .debug_aranges
-                0x00000000000000c8       0x48 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000000000c8       0x60 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .debug_aranges
-                0x0000000000000110       0x30 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                0x0000000000000128       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .debug_aranges
-                0x0000000000000140       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000000000148       0x30 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
  .debug_aranges
-                0x0000000000000160       0x60 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000178       0x48 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .debug_aranges
-                0x00000000000001c0       0xe8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                0x00000000000001c0       0xe8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
  .debug_aranges
-                0x00000000000002a8       0x70 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                0x00000000000002a8       0x70 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
  .debug_aranges
-                0x0000000000000318       0x28 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000318       0x28 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
  .debug_aranges
-                0x0000000000000340       0x38 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                0x0000000000000340       0x38 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
  .debug_aranges
-                0x0000000000000378       0x30 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                0x0000000000000378       0x30 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
 
 .debug_ranges   0x0000000000000000      0x318
- .debug_ranges  0x0000000000000000       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_ranges  0x0000000000000020       0x28 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_ranges  0x0000000000000048       0x50 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_ranges  0x0000000000000098       0x38 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_ranges  0x00000000000000d0       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_ranges  0x00000000000000f0       0x10 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_ranges  0x0000000000000100       0x68 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_ranges  0x0000000000000168       0xf0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .debug_ranges  0x0000000000000258       0x60 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .debug_ranges  0x00000000000002b8       0x18 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .debug_ranges  0x00000000000002d0       0x28 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .debug_ranges  0x00000000000002f8       0x20 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .debug_ranges  0x0000000000000000       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_ranges  0x0000000000000020       0x28 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_ranges  0x0000000000000048       0x50 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_ranges  0x0000000000000098       0x68 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x0000000000000100       0x10 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x0000000000000110       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_ranges  0x0000000000000130       0x38 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x0000000000000168       0xf0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_ranges  0x0000000000000258       0x60 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_ranges  0x00000000000002b8       0x18 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .debug_ranges  0x00000000000002d0       0x28 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_ranges  0x00000000000002f8       0x20 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
 
-.debug_line     0x0000000000000000     0x79eb
- .debug_line    0x0000000000000000      0x4d0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x00000000000004d0      0x72a /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_line    0x0000000000000bfa     0x12f7 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_line    0x0000000000001ef1      0x7f9 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x00000000000026ea      0x58b /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_line    0x0000000000002c75      0x5ab /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x0000000000003220     0x11c2 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x00000000000043e2     0x1ea3 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .debug_line    0x0000000000006285      0xb85 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .debug_line    0x0000000000006e0a      0x4d9 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x00000000000072e3      0x3b6 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .debug_line    0x0000000000007699      0x352 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+.debug_line     0x0000000000000000     0x7a7d
+ .debug_line    0x0000000000000000      0x562 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x0000000000000562      0x72a /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x0000000000000c8c     0x12f7 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x0000000000001f83     0x11c2 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x0000000000003145      0x5ab /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x00000000000036f0      0x58b /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x0000000000003c7b      0x7f9 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x0000000000004474     0x1ea3 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .debug_line    0x0000000000006317      0xb85 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .debug_line    0x0000000000006e9c      0x4d9 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x0000000000007375      0x3b6 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .debug_line    0x000000000000772b      0x352 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
 
-.debug_str      0x0000000000000000     0x254a
- .debug_str     0x0000000000000000      0x827 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x8fc (size before relaxing)
- .debug_str     0x0000000000000827      0x35a /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                        0xa23 (size before relaxing)
- .debug_str     0x0000000000000b81      0x2e5 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
-                                        0xbb1 (size before relaxing)
- .debug_str     0x0000000000000e66      0x13b /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                        0x7b5 (size before relaxing)
- .debug_str     0x0000000000000fa1      0xab8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
-                                       0x10df (size before relaxing)
- .debug_str     0x0000000000001a59       0x80 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                        0x7cd (size before relaxing)
- .debug_str     0x0000000000001ad9      0x1c8 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0xb9f (size before relaxing)
- .debug_str     0x0000000000001ca1      0x531 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
-                                        0xd37 (size before relaxing)
- .debug_str     0x00000000000021d2      0x128 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
-                                        0x8df (size before relaxing)
- .debug_str     0x00000000000022fa      0x123 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
-                                       0x1048 (size before relaxing)
- .debug_str     0x000000000000241d       0xae /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
-                                        0x6ad (size before relaxing)
- .debug_str     0x00000000000024cb       0x7f /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
-                                        0x1d5 (size before relaxing)
+.debug_str      0x0000000000000000     0x255c
+ .debug_str     0x0000000000000000      0x849 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0x91e (size before relaxing)
+ .debug_str     0x0000000000000849      0x356 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                        0xa1f (size before relaxing)
+ .debug_str     0x0000000000000b9f      0x2e5 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                                        0xbad (size before relaxing)
+ .debug_str     0x0000000000000e84      0x1d1 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0xb9b (size before relaxing)
+ .debug_str     0x0000000000001055       0x80 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                        0x7c9 (size before relaxing)
+ .debug_str     0x00000000000010d5      0xab8 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+                                       0x10db (size before relaxing)
+ .debug_str     0x0000000000001b8d      0x132 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                        0x7b1 (size before relaxing)
+ .debug_str     0x0000000000001cbf      0x52d /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+                                        0xd33 (size before relaxing)
+ .debug_str     0x00000000000021ec      0x128 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+                                        0x8db (size before relaxing)
+ .debug_str     0x0000000000002314      0x11f /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+                                       0x1044 (size before relaxing)
+ .debug_str     0x0000000000002433       0xaa /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+                                        0x6a9 (size before relaxing)
+ .debug_str     0x00000000000024dd       0x7f /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+                                        0x1d1 (size before relaxing)
 
 .comment        0x0000000000000000       0x6b
- .comment       0x0000000000000000       0x31 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .comment       0x0000000000000000       0x31 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x32 (size before relaxing)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .comment       0x0000000000000031       0x32 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .comment       0x0000000000000031       0x32 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
  .comment       0x0000000000000031       0x3a /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)
                                          0x3b (size before relaxing)
 
 .xtensa.info    0x0000000000000000       0x38
- .xtensa.info   0x0000000000000000       0x38 /home/zelan/esp/projects/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/log/liblog.a(log.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
- .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/projects/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
+ .xtensa.info   0x0000000000000000       0x38 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/spi_flash/libspi_flash.a(spi_flash_raw.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/log/liblog.a(log.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(ets_printf.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(crc.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/esp8266/libesp8266.a(esp_fast_boot.o)
  .xtensa.info   0x0000000000000038        0x0 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/lib/libcore.a(phy.o)

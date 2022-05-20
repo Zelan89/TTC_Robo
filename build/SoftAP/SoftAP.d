@@ -1,7 +1,7 @@
-SoftAP.o: /home/zelan/esp/projects/TTC_Robo/components/SoftAP/SoftAP.c \
+SoftAP.o: /home/zelan/TTC_Robo/TTC_Robo/components/SoftAP/SoftAP.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -79,7 +79,7 @@ SoftAP.o: /home/zelan/esp/projects/TTC_Robo/components/SoftAP/SoftAP.c \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -224,4 +224,4 @@ SoftAP.o: /home/zelan/esp/projects/TTC_Robo/components/SoftAP/SoftAP.c \
 /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/err.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h:
-/home/zelan/esp/projects/TTC_Robo/components/SoftAP/./SoftAP.c:
+/home/zelan/TTC_Robo/TTC_Robo/components/SoftAP/./SoftAP.c:

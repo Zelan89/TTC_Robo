@@ -2,7 +2,7 @@ port/portevent_m.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/port/portevent_m.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mb_m.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mbconfig.h \
- /home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/port/port.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
@@ -52,7 +52,7 @@ port/portevent_m.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mbconfig.h:
 
-/home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/port/port.h:
 

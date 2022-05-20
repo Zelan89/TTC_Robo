@@ -1,6 +1,6 @@
 src/bootloader_utility.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_utility.c \
- /home/zelan/esp/projects/TTC_Robo/build/bootloader/../include/sdkconfig.h \
+ /home/zelan/TTC_Robo/TTC_Robo/build/bootloader/../include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_config.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_flash_data_types.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_utility.h \
@@ -23,7 +23,7 @@ src/bootloader_utility.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h
 
-/home/zelan/esp/projects/TTC_Robo/build/bootloader/../include/sdkconfig.h:
+/home/zelan/TTC_Robo/TTC_Robo/build/bootloader/../include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_config.h:
 

@@ -4,7 +4,7 @@ port/crypto_hash_mbedtls/crypto_hash_sha256_mbedtls.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/libsodium/libsodium/src/libsodium/include/sodium/export.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp_mem.h \
@@ -20,7 +20,7 @@ port/crypto_hash_mbedtls/crypto_hash_sha256_mbedtls.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/zelan/esp/projects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h:
 
