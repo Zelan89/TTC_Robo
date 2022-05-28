@@ -1,7 +1,7 @@
 src/select.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/newlib/src/select.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/select.h \
- /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/vfs/include/esp_vfs.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
@@ -39,7 +39,7 @@ src/select.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/select.h:
 
-/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/vfs/include/esp_vfs.h:
 

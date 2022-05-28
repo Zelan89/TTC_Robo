@@ -4,7 +4,7 @@ src/esp_https_ota.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp_http_client/include/esp_http_client.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -49,7 +49,7 @@ src/esp_https_ota.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

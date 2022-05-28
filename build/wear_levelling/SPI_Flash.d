@@ -1,7 +1,7 @@
 SPI_Flash.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/wear_levelling/SPI_Flash.cpp \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
- /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -14,7 +14,7 @@ SPI_Flash.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
-/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

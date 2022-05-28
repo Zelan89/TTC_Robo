@@ -2,7 +2,7 @@ src/crypto/tls_mbedtls.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/crypto/tls_mbedtls.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/includes.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/supplicant_opt.h \
- /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -71,7 +71,7 @@ src/crypto/tls_mbedtls.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/supplicant_opt.h:
 
-/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

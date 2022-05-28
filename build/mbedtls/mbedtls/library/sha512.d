@@ -1,7 +1,7 @@
 mbedtls/library/sha512.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/library/sha512.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp_mem.h \
@@ -16,7 +16,7 @@ mbedtls/library/sha512.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h:
 

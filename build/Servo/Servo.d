@@ -1,7 +1,7 @@
-Servo.o: /home/zelan/TTC_Robo/TTC_Robo/components/Servo/Servo.c \
+Servo.o: /home/zelan/VScodePojects/TTC_Robo/components/Servo/Servo.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -41,13 +41,13 @@ Servo.o: /home/zelan/TTC_Robo/TTC_Robo/components/Servo/Servo.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/pwm.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/adc.h \
- /home/zelan/TTC_Robo/TTC_Robo/components/Servo/include/Servo.h
+ /home/zelan/VScodePojects/TTC_Robo/components/Servo/include/Servo.h
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/zelan/TTC_Robo/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -127,5 +127,5 @@ Servo.o: /home/zelan/TTC_Robo/TTC_Robo/components/Servo/Servo.c \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/adc.h:
 
-/home/zelan/TTC_Robo/TTC_Robo/components/Servo/include/Servo.h:
-/home/zelan/TTC_Robo/TTC_Robo/components/Servo/./Servo.c:
+/home/zelan/VScodePojects/TTC_Robo/components/Servo/include/Servo.h:
+/home/zelan/VScodePojects/TTC_Robo/components/Servo/./Servo.c:
