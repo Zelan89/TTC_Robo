@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "websocket_server.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "cjson.h": "c"
     }
 }

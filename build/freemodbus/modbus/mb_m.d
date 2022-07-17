@@ -3,7 +3,7 @@ modbus/mb_m.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/port/port.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -51,7 +51,7 @@ modbus/mb_m.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

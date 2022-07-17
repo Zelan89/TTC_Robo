@@ -1,7 +1,7 @@
 common/esp_modbus_slave.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/common/esp_modbus_slave.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
- /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/common/mbc_slave.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
@@ -53,7 +53,7 @@ common/esp_modbus_slave.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
 
-/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freemodbus/common/mbc_slave.h:
 

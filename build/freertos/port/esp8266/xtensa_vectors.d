@@ -16,7 +16,7 @@ port/esp8266/xtensa_vectors.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_context.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/coreasm.h:
@@ -51,7 +51,7 @@ port/esp8266/xtensa_vectors.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h:
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/xtensa_vectors.S:

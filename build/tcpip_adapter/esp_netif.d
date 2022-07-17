@@ -1,7 +1,7 @@
 esp_netif.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/esp_netif.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/esp_netif.h \
- /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h \
@@ -65,7 +65,7 @@ esp_netif.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/esp_netif.h:
 
-/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h:
 

@@ -1,7 +1,7 @@
 websocket_server.o: \
- /home/zelan/VScodePojects/TTC_Robo/components/websocket_server/websocket_server.c \
+ /home/zelan/VScode/TTC_Robo/components/websocket_server/websocket_server.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
- /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -81,15 +81,15 @@ websocket_server.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/inet.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/errno.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/json/cJSON/cJSON.h \
- /home/zelan/VScodePojects/TTC_Robo/components/websocket_server/include/websocket_server.h \
+ /home/zelan/VScode/TTC_Robo/components/websocket_server/include/websocket_server.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/api.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netbuf.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h \
- /home/zelan/VScodePojects/TTC_Robo/components/Servo/include/Servo.h
+ /home/zelan/VScode/TTC_Robo/components/Servo/include/Servo.h
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
-/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -249,7 +249,7 @@ websocket_server.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/json/cJSON/cJSON.h:
 
-/home/zelan/VScodePojects/TTC_Robo/components/websocket_server/include/websocket_server.h:
+/home/zelan/VScode/TTC_Robo/components/websocket_server/include/websocket_server.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/api.h:
 
@@ -257,5 +257,5 @@ websocket_server.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h:
 
-/home/zelan/VScodePojects/TTC_Robo/components/Servo/include/Servo.h:
-/home/zelan/VScodePojects/TTC_Robo/components/websocket_server/./websocket_server.c:
+/home/zelan/VScode/TTC_Robo/components/Servo/include/Servo.h:
+/home/zelan/VScode/TTC_Robo/components/websocket_server/./websocket_server.c:

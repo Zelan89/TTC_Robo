@@ -210,7 +210,7 @@ static void  client_connection(void *argument)
 			/* We only accept the incoming packet length that is smaller than the max_len (or it will overflow the buffer!) */
 //			if (frame->len > max_len) {
 //				ESP_LOGW(TAG, "WS Message too long");
-//			}
+// 			}
 			
 			ESP_LOGI(TAG,
 				"Payload length %d",

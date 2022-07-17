@@ -8,7 +8,7 @@ lwip/src/apps/netbiosns/netbiosns.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
- /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -92,7 +92,7 @@ lwip/src/apps/netbiosns/netbiosns.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
 
-/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 

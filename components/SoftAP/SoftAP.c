@@ -37,16 +37,16 @@ static void wifi_event_handler(void* arg,
 	if (event_id == WIFI_EVENT_AP_STACONNECTED) {
 		wifi_event_ap_staconnected_t* event = (wifi_event_ap_staconnected_t*) event_data;
 		ESP_LOGI(TAG,
-			"station "MACSTR" join, AID=%d",
-			MAC2STR(event->mac),
-			event->aid);
+				"station "MACSTR" join, AID=%d",
+				MAC2STR(event->mac),
+				event->aid);
 	}
 	else if (event_id == WIFI_EVENT_AP_STADISCONNECTED) {
 		wifi_event_ap_stadisconnected_t* event = (wifi_event_ap_stadisconnected_t*) event_data;
 		ESP_LOGI(TAG,
-			"station "MACSTR" leave, AID=%d",
-			MAC2STR(event->mac),
-			event->aid);
+				"station "MACSTR" leave, AID=%d",
+				MAC2STR(event->mac),
+				event->aid);
 	}
 }
 
@@ -67,7 +67,7 @@ void wifi_init_softap()
 		.password = EXAMPLE_ESP_WIFI_PASS,
 		.max_connection = EXAMPLE_MAX_STA_CONN,
 		.authmode = WIFI_AUTH_WPA_WPA2_PSK
-	},
+		},
 	};
 	if (strlen(EXAMPLE_ESP_WIFI_PASS) == 0) {
 		wifi_config.ap.authmode = WIFI_AUTH_OPEN;

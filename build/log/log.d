@@ -3,7 +3,7 @@ log.o: /home/zelan/esp/ESP8266_RTOS_SDK/components/log/log.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
@@ -44,7 +44,7 @@ log.o: /home/zelan/esp/ESP8266_RTOS_SDK/components/log/log.c \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
-/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h:
 

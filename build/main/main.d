@@ -1,7 +1,7 @@
-main.o: /home/zelan/VScodePojects/TTC_Robo/main/main.c \
+main.o: /home/zelan/VScode/TTC_Robo/main/main.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -30,7 +30,7 @@ main.o: /home/zelan/VScodePojects/TTC_Robo/main/main.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/esp_heap_config.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h \
- /home/zelan/VScodePojects/TTC_Robo/components/SoftAP/SoftAP.h \
+ /home/zelan/VScode/TTC_Robo/components/SoftAP/SoftAP.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h \
@@ -38,8 +38,8 @@ main.o: /home/zelan/VScodePojects/TTC_Robo/main/main.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_partition.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h \
- /home/zelan/VScodePojects/TTC_Robo/components/tcp_server/include/tcp_server.h \
- /home/zelan/VScodePojects/TTC_Robo/components/websocket_server/include/websocket_server.h \
+ /home/zelan/VScode/TTC_Robo/components/tcp_server/include/tcp_server.h \
+ /home/zelan/VScode/TTC_Robo/components/websocket_server/include/websocket_server.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/api.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/opt.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/lwipopts.h \
@@ -70,13 +70,13 @@ main.o: /home/zelan/VScodePojects/TTC_Robo/main/main.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip6_addr.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/def.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h \
- /home/zelan/VScodePojects/TTC_Robo/components/Servo/include/Servo.h
+ /home/zelan/VScode/TTC_Robo/components/Servo/include/Servo.h
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -134,7 +134,7 @@ main.o: /home/zelan/VScodePojects/TTC_Robo/main/main.c \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h:
 
-/home/zelan/VScodePojects/TTC_Robo/components/SoftAP/SoftAP.h:
+/home/zelan/VScode/TTC_Robo/components/SoftAP/SoftAP.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
@@ -150,9 +150,9 @@ main.o: /home/zelan/VScodePojects/TTC_Robo/main/main.c \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h:
 
-/home/zelan/VScodePojects/TTC_Robo/components/tcp_server/include/tcp_server.h:
+/home/zelan/VScode/TTC_Robo/components/tcp_server/include/tcp_server.h:
 
-/home/zelan/VScodePojects/TTC_Robo/components/websocket_server/include/websocket_server.h:
+/home/zelan/VScode/TTC_Robo/components/websocket_server/include/websocket_server.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/api.h:
 
@@ -214,5 +214,5 @@ main.o: /home/zelan/VScodePojects/TTC_Robo/main/main.c \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h:
 
-/home/zelan/VScodePojects/TTC_Robo/components/Servo/include/Servo.h:
-/home/zelan/VScodePojects/TTC_Robo/main/./main.c:
+/home/zelan/VScode/TTC_Robo/components/Servo/include/Servo.h:
+/home/zelan/VScode/TTC_Robo/main/./main.c:

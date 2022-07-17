@@ -1,8 +1,8 @@
 tcp_server.o: \
- /home/zelan/VScodePojects/TTC_Robo/components/tcp_server/tcp_server.c \
+ /home/zelan/VScode/TTC_Robo/components/tcp_server/tcp_server.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h \
+ /home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -87,13 +87,13 @@ tcp_server.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/errno.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netdb.h \
- /home/zelan/VScodePojects/TTC_Robo/components/tcp_server/include/tcp_server.h
+ /home/zelan/VScode/TTC_Robo/components/tcp_server/include/tcp_server.h
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/zelan/VScodePojects/TTC_Robo/build/include/sdkconfig.h:
+/home/zelan/VScode/TTC_Robo/build/include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -263,5 +263,5 @@ tcp_server.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netdb.h:
 
-/home/zelan/VScodePojects/TTC_Robo/components/tcp_server/include/tcp_server.h:
-/home/zelan/VScodePojects/TTC_Robo/components/tcp_server/./tcp_server.c:
+/home/zelan/VScode/TTC_Robo/components/tcp_server/include/tcp_server.h:
+/home/zelan/VScode/TTC_Robo/components/tcp_server/./tcp_server.c:
