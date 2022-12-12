@@ -1,7 +1,7 @@
 source/esp_fast_boot.o: \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/source/esp_fast_boot.c \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
- /home/zelan/VScode/TTC_Robo/build/bootloader/../include/sdkconfig.h \
+ /home/zelan/VSCode/TTC_Robo/build/bootloader/../include/sdkconfig.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -16,7 +16,7 @@ source/esp_fast_boot.o: \
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
-/home/zelan/VScode/TTC_Robo/build/bootloader/../include/sdkconfig.h:
+/home/zelan/VSCode/TTC_Robo/build/bootloader/../include/sdkconfig.h:
 
 /home/zelan/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
